@@ -907,7 +907,7 @@ textarea {
 	    padding: 0px 42px;
 }
 .service ul li {
-    width: 80px;
+    width: 70px;
     display: inline-block;
 }
 .footer ol, ul {
@@ -976,15 +976,15 @@ textarea {
 .user .col-md-8 {
     width: 60%;
 }
+
 .design {
     padding: 40px 0px;
-    height: 40vh;
+    height: auto;
 }
 .design .content-text button {
-    padding: 5px 5px;
+    padding: 6px 14px;
     border: 1px solid white;
-
-
+    margin-top: 15px;
 }
 .contact-form {
     width: 70%;
