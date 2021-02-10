@@ -700,3 +700,320 @@ textarea {
 	font-size: 14px;
 
 }
+
+
+/*media query*/
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+
+
+.navbar-light .navbar-toggler-icon {
+    
+    background-color: white;
+}
+.banner {
+
+    height: 80vh;
+}
+.banner-text{
+    height: 80vh;
+}
+.banner-form {
+    height: 80vh;
+}
+
+.banner-form .card-body {
+    padding:0px!important;
+}
+.offset-1 {
+    margin-left:0;
+}
+.icon ul li {
+    margin-left: 19px;
+   
+}
+.fa {
+   
+    font-size: 30px;
+   
+}
+.socialmedia .icon-text p {
+    width: 110%;
+}
+.socialmedia .icon-text {
+    padding: 19px 0px;
+}
+.service {
+    padding: 50px 0px;
+  
+}
+.service p {
+    margin: 32px 33px;
+}
+.service h4 {
+  margin: 0px 32px;
+}
+
+.service .col-md-4 {
+    display: flex;
+    align-items: center;
+}
+.service button {
+   
+    margin: 0px 20px;
+}
+
+.feature .row{
+	flex-direction: column;
+
+}
+.feature .sub-list .col-md-6{
+	text-align: center;
+	 width: 100%;
+
+} 
+    
+
+
+.sub-list{
+	padding: 50px 0px;
+
+}
+.feature .row .sub-list-text{
+	width: 200%;
+}
+
+.standard {
+    padding: 50px 0px;
+}
+
+/*
+.standard .col-md-6{
+	    align-items: center;
+    display: flex;
+}
+.standard .col-md-5{
+	width: 100%;
+}*/
+.awesome {
+    padding: 50px 0px;
+}
+.awesome-text h2 {
+    font-size: 30px;
+}
+.awesome-text {
+    padding: 10px 0px;
+}
+.pricing {
+    padding: 50px 0px;
+}
+
+.price-body-list {
+    margin-top: 40px;
+}
+
+.testimonial {
+    padding: 40px 0px;
+   
+}
+.content-text h3 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 300px;
+}
+.footer {
+    padding: 40px 0px;
+   
+}
+.contact-form {
+    padding: 60px 0px;
+}
+
+
+
+
+}
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+.banner {
+    height: auto;
+}
+.navbar-light .navbar-toggler-icon {
+   
+    background-color: white;
+}
+.banner-text {
+    text-align: center;
+}
+.banner-text .line {
+    margin: auto;
+}
+.banner-text h1 {
+    margin: 25px 42px;
+ }
+
+.banner-text {
+    padding-top: 10px;
+}
+.banner-text p {
+    margin: 10px 41px;
+ 
+}
+.banner .banner-form .card .offset-1 .col-md-4{
+    margin-left: 0%;
+}
+.banner-form {
+    height: 70vh;
+    padding-right: 0px;
+}
+.icon-text {
+    padding: 20px 0px;
+    text-align: center;
+}
+.socialmedia .icon-text p {
+    width: 99%;
+}
+.icon {
+    padding: 0px 0px;
+}
+.icon ul li {
+    margin-left: 9px;
+    padding-top: 0px;
+    font-size: 29px;
+}
+.service {
+    padding: 30px 0px;
+
+}
+.service .col-md-2{
+	    padding: 0px 42px;
+}
+.service ul li {
+    width: 80px;
+    display: inline-block;
+}
+.footer ol, ul {
+    padding-left: -1rem;
+}
+
+.service .col-md-6{
+    text-align: center;
+}
+.service p {
+    margin: 28px 20px;
+}
+.sub-list {
+    padding: 20px 0px;
+}
+.sub-list .sub-list-text{
+	 text-align: center;
+}
+.sub-list-text .line {
+    margin: auto;
+}
+.sub-list .image {
+    display: flex;
+    margin-left: 0px;
+}
+.picture-1 ul li {
+    padding-right: 0px;
+}
+.standard {
+    padding: 40px 0px;
+}
+
+.standard .standard-text{
+	    text-align: -webkit-center;
+}
+.awesome {
+    padding: 40px 0px;
+}
+
+.awesome-text {
+    text-align: center;
+    padding: 10px 0px;
+}
+.awesome-text h2 {
+    margin-bottom:0.5rem;
+  
+    font-size: 23px;
+}
+.pricing {
+    padding: 30px 0px;
+}
+.content-text h3 {
+    font-size: 30px;
+}
+.price-body-list {
+    margin-top: 10px;
+}
+.testimonial {
+    padding: 30px 0px;
+}
+
+.user .col-md-4 {
+    padding-right: 0px;
+    width: 40%;
+}
+.user .col-md-8 {
+    width: 60%;
+}
+.design {
+    padding: 40px 0px;
+    height: 40vh;
+}
+.design .content-text button {
+    padding: 5px 5px;
+    border: 1px solid white;
+
+
+}
+.contact-form {
+    width: 70%;
+    padding: 20px 0px;
+    margin: auto;
+
+}
+.footer {
+    padding: 0px;
+}
+.footer ol, ul {
+    padding-left: 0rem;
+}
+
+.footer .icon {
+    padding-left: 10%;
+}
+.footer ul li a {
+    color: #cccccc;
+    font-size: 20px;
+}
+
+.contact-form button {
+    margin: 0% 20%;
+    padding: 2px 25px;
+}
+.contact-form textarea {
+    height: 80px;
+  
+}
+
+}
